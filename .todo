@@ -1,0 +1,9 @@
+
+For the Auth, use middleware. Screenshots as well as 20-Stu_MVC_Middleware in auth.js and home-routes.js
+
+Notes from class:
+
+Dashboard - you see only what you have written for an article
+Public side shows all posts
+Must be logged in to comment on a post.
+Have soft-delete functionality if possible
