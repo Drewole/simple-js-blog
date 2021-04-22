@@ -27,19 +27,16 @@
                         </ul>
                   </div>
             </nav>
-
-            <h1>The Tech Blog</h1>
       </header>
       <main>
             <div class="container">
-                  <section class="auth">
-                        <div class="log-in-out">
-                              <form class="col s-6">
-                                    <h2>Signup</h2>
-                                    <h2>Login</h2>
-                                    <label for="username">Username<input name="username" type="text"></label>
+                  <section class="auth row">
+                        <div class="log-in-out card">
+                              <div class="col s6 offset-s3 card-content">
+                                    <h5>Signup</h5>
+                                    <h5>Login</h5>
                                     <div class="row">
-                                          <div class="input-field col s6">
+                                          <div class="input-field col s12">
                                                 <input id="user_name" type="text" class="validate">
                                                 <label for="user_name">Username</label>
                                           </div>
@@ -52,31 +49,34 @@
                                           </div>
                                     </div>
 
-                                    <button class="btn waves-effect waves-light" type="submit" name="action">Sign Up
+                                    <button class="deep-purple-text
+#1de9b6 teal lighten-3 btn waves-effect waves-light" type="submit" name="action">Sign Up
                                           <i class="material-icons right">send</i>
                                     </button>
 
-                              </form>
-                              <a class="login-instead">Login Instead</a>
-                              <a class="signup-instead">No Account? Sign Up!</a>
+                              <div class="card-action">
+                                    <a href="/login" class="login-instead">Login Instead</a>
+                              <a href="/signup" class="signup-instead">No Account? Sign Up!</a>
+                              </div>
+                              
                         </div>
                   </section>
                   <section class="dashboard">
                         <div class="posts">
                               <ul>
-                                    <li><h2>Title of Post</h2></li>
-                                    <li><h2>Title of Post</h2></li>
-                                    <li><h2>Title of Post</h2></li>
-                                    <li><h2>Title of Post</h2></li>
+                                    <li><a class="h3">Title of Post</a></li>
+                                    <li><a class="h3">Title of Post</a></li>
+                                    <li><a class="h3">Title of Post</a></li>
+                                    <li><a class="h3">Title of Post</a></li>
                               </ul>
                               <article>
                                     <header>
-                                          
                                           <p class="author"><span>Author:</span> Author Name</p>
                                           <p class="date">03.30.2021</p>
                                     </header>
                               </article>
-                              <button class="add-post">Add a Post</button>
+                              <button class="deep-purple-text
+#1de9b6 teal lighten-3 btn waves-effect waves-light">Add a Post</button>
                         </div>
                   </section>
                   <section class="blog-posts">
