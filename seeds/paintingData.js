@@ -1,6 +1,6 @@
-const { Painting } = require('../models');
+const { Comment } = require('../models');
 
-const paintingdata = [
+const commentData = [
   {
     title: 'Blossoming Apricot',
     artist: 'LedyX',
